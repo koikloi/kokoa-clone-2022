@@ -1,6 +1,11 @@
 @import "reset.css";
-@import "components/status-bar.css";
 @import "variables.css";
+
+/*Components*/
+@import "components/status-bar.css";
+@import "components/nav-var.css";
+
+/*Screens*/
 @import "screens/login.css";
 
 body {

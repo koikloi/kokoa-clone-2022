@@ -1,0 +1,85 @@
+.user-component__text {
+    position: relative;
+}
+
+.user-component__bang {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    border: 1px solid red;
+    color: red;
+    font-size: 5px;
+    border-radius: 50%;
+    font-weight: 600;
+    left: 160px;
+    top: 26px;
+}
+
+.icon-row {
+    display: flex;
+    flex-direction: column;
+}
+.icon-row__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-row__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.more-screen .icon-row {
+    margin-top: 40px;
+}
+
+.icon-row__bottom .icon-row__icon:first-child {
+    margin-right: 65px;
+}
+
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+
+.more-suggestions__title {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.more-suggestions__icons {
+    display: flex;
+}
+
+.more-suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.more-suggestions__icon-image {
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i {
+    font-size: 32px;
+    color: aliceblue;
+}
+
+.header__icons span:last-child i {
+    width: 200px;
+}

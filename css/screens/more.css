@@ -17,7 +17,7 @@
     top: 26px;
 }
 
-.icon-row {
+.icon-row__more {
     display: flex;
     flex-direction: column;
 }
@@ -78,8 +78,4 @@
 .more-suggestions__icon-image i {
     font-size: 32px;
     color: aliceblue;
-}
-
-.header__icons span:last-child i {
-    width: 200px;
 }

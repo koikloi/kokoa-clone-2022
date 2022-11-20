@@ -9,3 +9,13 @@
     text-decoration: none;
     color: white;
 }
+
+.header__icons__dot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    right: 18px;
+    top: 50px;
+}

@@ -12,5 +12,6 @@
 }
 
 .header__icons span {
+    position: relative;
     margin-left: 20px;
 }

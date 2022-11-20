@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
+    margin-bottom: 20px;
 }
 
 .header__icons span {

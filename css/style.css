@@ -16,6 +16,8 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings";
+@import "screens/chats.css";
+@import "screens/chat.css";
 
 body {
     color: #2e363e;
@@ -24,4 +26,8 @@ body {
 
 .main_screen {
     padding: 0px var(--horizontal-space);
+}
+
+.fa-gear {
+    color: black;
 }

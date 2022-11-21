@@ -9,6 +9,7 @@
     align-items: center;
     padding: var(--horizontal-space);
     margin-bottom: 20px;
+    padding-top: 60px;
 }
 
 .header__icons span {
